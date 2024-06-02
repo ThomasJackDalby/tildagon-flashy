@@ -1,40 +1,14 @@
 [app]
-# The name of your app as displayed in the menu
-name = "Demo App"
-
-# The submenu where your app should appear.
-# One of: "Badge", "Music", "Media", "Apps", "Games"
+name = "HAB Flash"
 category = "Badge"
-
-# OPTIONAL: Same as above, for compatibility with older firmware
-# versions that can't handle categories introduced afterwards.
-# One of: "Badge", "Music", "Apps"
-# menu = "Badge"
-
-# OPTIONAL: If your app prefers wifi to be off or on when entering.
-# Useful if you want more resources (false) or need wifi (true).
-# Remove if you don't want to change wifi state!
-# wifi_preference = false
+wifi_preference = true
 
 [entry]
-# The name of your entry point `Application` class
-# class = "NickApp"
+class = "HabFlash"
 
 [metadata]
-# Your nickname.  Must be at most 32 characters!
-author = "hughrawlinson"
-
-# License of your app as an SPDX identifier: <https://spdx.org/licenses/>
-license = "LGPL-3.0-only"
-
-# URL to the repository of your app.
-url = "https://www.github.com/hughrawlinson/tildagon-demo"
-
-# Description of your app.  Maximum 140 characters!
-description = "A demo tildagon app for use developing the app directory"
-
-# Version number of your app.  If you push a commit where this number is
-# increased, we interpret this as a new version being released.
-#
-# Version number must be an integer!
+author = "Tom Dalby"
+license = "MIT"
+url = "https://github.com/ThomasJackDalby/tildagon-flashy"
+description = "The essential navigation (and tracking) tool for EMF 2024. Allows the wearer to beam their current location to HABVille, through the medium of receipt printing. (to be clear, this will actually print a physical receipt of your location at HABVille (during EMF 2024))."
 version = "0.0.1"
